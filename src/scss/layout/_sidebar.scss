@@ -1,0 +1,25 @@
+.doc-content__sidebar {
+    height: calc( 100vh - var(--menu-height) );
+    display: grid;
+    grid-template-rows: 1fr 60px;
+    position: sticky;
+    padding: 0 2rem 0 0;
+    top: var(--menu-height);
+
+}
+
+.toc {
+    @extend .doc-content__sidebar;    // Betyder att den hämtar allt innehåll från .doc-content__sidebar.
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 2rem;
+}
+
+.sidebar-settings {
+   border-top: 1px solid var(--color-dark-200);
+    height: 60px; 
+    position: sticky;   //  
+    bottom: 0;          //
+    align-self: end;    // Gör att settings stannar kvar längs ner när man skrollar.
+
+}

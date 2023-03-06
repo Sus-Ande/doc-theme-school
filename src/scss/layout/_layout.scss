@@ -1,0 +1,27 @@
+body {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+.doc-header,
+.doc-content,
+.doc-footer {
+    display: grid;
+    grid-template-columns: var(--grid-container);
+
+    &__inner {
+        grid-column: inner;
+    
+    }
+}
+
+.doc-content {
+    min-height: 100vh; // temp
+    padding-top: var(--menu-height);
+
+    &__inner {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: minmax(200px, 300px) minmax(0, 75rem) minmax(200px, 300px);
+    }
+}

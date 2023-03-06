@@ -1,0 +1,14 @@
+.doc-header {
+    height: var(--menu-height);
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    border-bottom: 1px solid #555; // temp
+
+    &__inner {
+        
+    }
+}

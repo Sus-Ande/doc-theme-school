@@ -10,7 +10,8 @@
 
     --border-radius: 0px;
 
-    --color-dark: #222;
+    --color-dark: #111;
+    --color-dark-100: #222;
     --color-dark-200: #444;
     --color-dark-300: #666;
     --color-dark-400: #888;
@@ -40,8 +41,8 @@
     --color-light-800: #efead8;
     --color-light-900: #efead8;
 
-    --font-sans: 'Areal', sans-serif; 
-    --font-serif: 'Georgia', serif; 
+    --font-sans: 'Noto Sans', ui-sans-serif, sans-serif; 
+    --font-serif: 'Noto Sans', ui-sans-serif, sans-serif; 
 
     --line-height: 1.5;
 
@@ -54,4 +55,8 @@
     --font-size-5: calc( var(--font-size-4) * var(--font-scale) );
     --font-size-6: calc( var(--font-size-5) * var(--font-scale) );
 
+    --menu-height: 60px;
+
+    --page-inner: 90rem;
+    --grid-container: minmax(2rem, 1fr) [inner-start] minmax(0, var(--page-inner)) [inner-end] minmax(2rem, 1fr);
 }
