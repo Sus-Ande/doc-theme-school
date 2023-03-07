@@ -12,7 +12,7 @@
     @extend .doc-content__sidebar;    // Betyder att den hämtar allt innehåll från .doc-content__sidebar.
     display: flex;
     flex-direction: column;
-    padding: 0 0 0 2rem;
+    padding: 1rem 0 0 2rem;
 }
 
 .sidebar-settings {

@@ -3,6 +3,12 @@
     background-color: var(--color-dark-100);
 
     &__inner {
-        
+        display: flex;
+        align-items: center;
+    }
+
+    &__copyright {
+        font-size: 0.7rem;
+        color: var(--color-dark-600);
     }
 }

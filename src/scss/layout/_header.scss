@@ -9,6 +9,16 @@
     border-bottom: 1px solid #555; // temp
 
     &__inner {
-        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
+
+    &__content {
+        display: flex;
+        gap: 1rem;
+    }
+
 }
+
+

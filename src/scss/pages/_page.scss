@@ -1,0 +1,62 @@
+.page {
+    display: grid;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+
+    h3 {
+        border-bottom: 1px solid var(--color-dark-200);
+        padding-bottom: 0.5rem;
+    }
+
+    &__lastupdated {
+        text-align: right; 
+        //eller för att flytta till höger. Båda funkar lika bra.
+        // display: flex;
+        // justify-content: flex-end;
+        font-size: 0.7rem;
+        color: var(--color-dark-600);
+    }
+}
+
+.breadcrumb {
+    margin-top: 1rem;
+    font-size: var(--font-size-small);
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    &__item {
+        color: var(--color-dark-300);
+
+        &::after {
+            content: '>';
+            display: inline-block;
+            margin-left: 0.5rem;
+        }
+
+        &:last-of-type {
+            color: var(--color-dark-600);
+            &::after {
+                display: none;
+            }
+        }
+    }
+
+    a {
+        color: var(--color-dark-300);
+        &:hover {
+            color: var(--color-accent);
+        }
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+
+}
