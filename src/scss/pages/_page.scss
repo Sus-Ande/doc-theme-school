@@ -4,7 +4,7 @@
     padding-bottom: 4rem;
 
     h3 {
-        border-bottom: 1px solid var(--color-dark-200);
+        border-bottom: 1px solid var(--color-dark-150);
         padding-bottom: 0.5rem;
     }
 
@@ -15,6 +15,7 @@
         // justify-content: flex-end;
         font-size: 0.7rem;
         color: var(--color-dark-600);
+        padding: 2rem 0;
     }
 }
 
@@ -58,5 +59,7 @@
     display: flex;
     justify-content: space-between;
     padding: 3rem 0;
+    font-size: var(--font-size-2);
+    border-top: 1px solid var(--color-dark-150);
 
 }

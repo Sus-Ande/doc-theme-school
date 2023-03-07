@@ -12,6 +12,7 @@
 
     --color-dark: #111;
     --color-dark-100: #222;
+    --color-dark-150: #333;
     --color-dark-200: #444;
     --color-dark-300: #666;
     --color-dark-400: #888;
@@ -21,25 +22,25 @@
     --color-dark-800: #f1f1f1;
     --color-dark-900: #f8f4f4;
 
-    --color-accent: #fc00df;
-    --color-accent-200: #fc00df;
-    --color-accent-300: #fc00df;
-    --color-accent-400: #fc00df;
-    --color-accent-500: #fc00df;
-    --color-accent-600: #fc00df;
-    --color-accent-700: #fc00df;
-    --color-accent-800: #fc00df;
-    --color-accent-900: #fc00df;
+    --color-accent: hwb(189 0% 27%);
+    --color-accent-200: #009fbb;
+    --color-accent-300: #4db6c8;
+    --color-accent-400: #009fbb;
+    --color-accent-500: #009fbb;
+    --color-accent-600: #009fbb;
+    --color-accent-700: #009fbb;
+    --color-accent-800: #009fbb;
+    --color-accent-900: #009fbb;
 
-    --color-light: #efead8;
-    --color-light-200: #efead8;
-    --color-light-300: #efead8;
-    --color-light-400: #efead8;
-    --color-light-500: #efead8;
-    --color-light-600: #efead8;
-    --color-light-700: #efead8;
-    --color-light-800: #efead8;
-    --color-light-900: #efead8;
+    --color-light: #fff;
+    --color-light-200: #f9f9f9;
+    --color-light-300: #f1f1f1;
+    --color-light-400: #eee;
+    --color-light-500: #e1e1e1;
+    --color-light-600: #ddd;
+    --color-light-700: #ccc;
+    --color-light-800: #bbb;
+    --color-light-900: #aaa;
 
     --font-sans: 'Noto Sans', ui-sans-serif, sans-serif; 
     --font-serif: 'Noto Sans', ui-sans-serif, sans-serif; 

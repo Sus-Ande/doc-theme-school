@@ -1,12 +1,13 @@
 .doc-header {
     height: var(--menu-height);
-    background-color: rgba(0,0,0,0.8);
+    background-color: hsla(0, 0%, 7%, 0.7);
+    backdrop-filter: blur(15px);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 999;
-    border-bottom: 1px solid #555; // temp
+    border-bottom: 1px solid var(--color-dark-150); 
 
     &__inner {
         display: flex;
@@ -16,9 +17,23 @@
 
     &__content {
         display: flex;
+        align-items: center;
         gap: 1rem;
     }
 
+}
+
+.branding {
+    font-size: var(--font-size-2);
+    font-weight: 600;
+}
+
+.search-form {
+    &__input {  
+        max-width: 300px;
+        width: 100%;
+        min-width: 220px;
+    }
 }
 
 

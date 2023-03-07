@@ -1,0 +1,19 @@
+input:not([type="submit"], [type="checkbox"], [type="radio"])  {
+    background-color: var(--color-dark-150);
+    border: 0;
+    margin: 0;
+    padding: 0.5rem 0.75rem;
+    font-size: var(--font-size-small);
+    border-radius: 5px;
+    border: 2px solid transparent;
+    color: var(--color-dark-900);
+    &::placeholder {
+        color: var(--color-dark-700);
+    }
+
+    &:focus {
+        outline: none; //tar bort förinställd färg som följer med webbläsaren
+        border: 2px solid var(--color-accent);
+        background-color: transparent;
+    }
+}
