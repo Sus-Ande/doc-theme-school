@@ -1,6 +1,6 @@
 .doc-header {
     height: var(--menu-height);
-    background-color: hsla(0, 0%, 7%, 0.7);
+    background-color: var(--header-background);
     backdrop-filter: blur(15px);
     position: fixed;
     top: 0;
