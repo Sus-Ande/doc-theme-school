@@ -3,6 +3,10 @@
     padding-top: 1rem;
     padding-bottom: 4rem;
 
+    h2, h3 {
+        scroll-margin: 82px;
+    }
+
     h3 {
         border-bottom: 1px solid var(--color-dark-150);
         padding-bottom: 0.5rem;

@@ -57,6 +57,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -473,6 +477,9 @@ body {
   display: grid;
   padding-top: 1rem;
   padding-bottom: 4rem;
+}
+.page h2, .page h3 {
+  scroll-margin: 82px;
 }
 .page h3 {
   border-bottom: 1px solid var(--color-dark-150);
